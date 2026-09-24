@@ -1,39 +1,50 @@
 # Olá, sou o Fábio Prado de Camargo 👋
 
-**Desenvolvedor Backend Java Sênior / Especialista**  
-Com mais de 12 anos de experiência na arquitetura e sustentação de ecossistemas corporativos críticos, módulos financeiros e plataformas SaaS de alta escala.
+### Desenvolvedor Backend Java Sênior / Especialista
+**Java 8+, 17, 21 • Spring Boot 3 • Microsserviços & Event-Driven • Módulos Financeiros & ERP • Multi-Tenant SaaS • Docker • CI/CD**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/fabio-prado-de-camargo)
+📍 Limeira, SP - Brasil  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabio-prado-de-camargo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bio.camargo@gmail.com)
 
 ---
 
-### 🛠️ Tecnologias & Competências
-![Java](https://img.shields.io/badge/Java_17_/_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security_6-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle_PL/SQL-F80000?style=flat-square&logo=oracle&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Swagger](https://img.shields.io/badge/OpenAPI_3-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+## 🚀 Sobre Mim
+
+Com **mais de 12 anos de experiência sólida** na concepção, arquitetura, modernização e sustentação de sistemas corporativos de alta complexidade e plataformas SaaS multi-tenant.
+
+* ☕ **Ecossistema Java:** Domínio avançado em **Java (8+, 11, 17, 21)**, **Spring Boot 3**, Spring Data JPA, Spring Security 6, Spring Batch e Hibernate.
+* 💳 **Domínio Financeiro & Negócios:** Ampla vivência na arquitetura de motores de cálculo (folha de pagamento, conciliação e repasses), gestão de contratos imobiliários, integração de faturas e liquidação financeira.
+* ⚡ **Arquitetura & Performance:** Especialista em Microsserviços, Clean Architecture, mensageria com **Kafka** e **RabbitMQ**, cache com **Redis** e **Query Tuning / Otimização profunda em bancos relacionais** (PostgreSQL, Oracle/PL-SQL, MySQL, SQL Server).
+* 🛠️ **DevOps & Qualidade:** Esteiras de **CI/CD (Jenkins, GitLab CI, GitHub Actions)**, conteinerização com **Docker/Kubernetes**, testes com **JUnit 5 / Testcontainers** e práticas ágeis (**Scrum/Kanban**).
 
 ---
 
-### 🚀 Projeto em Destaque
-#### ✂️ [BeautySalon SaaS — Plataforma Multi-Tenant de Gestão & Agendamentos](https://github.com/BioCamargo/beautysalon-saas)
+## 🛠️ Stack Tecnológica
+
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Backend & Frameworks** | `Java 17/21` `Spring Boot 3` `Spring Data JPA` `Spring Security 6` `Spring Batch` `Hibernate` `REST APIs` |
+| **Mensageria & Caching** | `Apache Kafka` `RabbitMQ` `AWS SQS` `Redis (Cache & Pub/Sub)` `Webhooks` |
+| **Bancos de Dados & Tuning** | `PostgreSQL` `Oracle (PL/SQL)` `MySQL` `SQL Server` `MongoDB` `Query Tuning (CTEs & Índices)` |
+| **DevOps, Nuvem & Containers** | `Docker` `Docker Compose` `Kubernetes` `CI/CD (Jenkins, GitLab CI)` `AWS` `Git / GitHub Flow` |
+| **Qualidade & Metodologias** | `JUnit 5` `Mockito` `Testcontainers` `Postman` `Swagger/OpenAPI` `Clean Code` `Scrum / Kanban` |
+
+---
+
+## 🌟 Projeto em Destaque no GitHub
+
+### ✂️ [BeautySalon SaaS — Plataforma Multi-Tenant de Gestão & Agendamentos](https://github.com/BioCamargo/beautysalon-saas)
 > Sistema empresarial completo desenvolvido em **Java 17 / Spring Boot 3.5**, arquitetura **Multi-Tenant**, integração com **WhatsApp API** e motor financeiro de alta performance.
 
-- 🏢 **Multi-Tenancy:** Isolamento dinâmico de dados por empresa via `TenantContext` e `ThreadLocal`.
-- ⚡ **Agendamento em Tempo Real:** Prevenção de concorrência e cálculo de slots livres.
-- 📲 **WhatsApp Bot & Lembretes:** Workers assíncronos (`@Scheduled`) com envio de notificações automáticas.
-- 💰 **Motor Financeiro & Comissões:** Fechamento de caixa, fluxo de comandas e relatórios analíticos otimizados.
+- 🏢 **Multi-Tenancy (TenantContext & ThreadLocal):** Isolamento dinâmico de dados por empresa via rota `/{slug}/`.
+- ⚡ **Agendamento Online em Tempo Real:** Motor de cálculo de horários livres com prevenção de concorrência.
+- 📲 **Mensageria & Automação WhatsApp:** Schedulers inteligentes e workers assíncronos (`@Scheduled`) integrados via Webhooks.
+- 💰 **Motor Financeiro & Comissões:** Fluxo de caixa diário, controle de comandas, rateio de comissões por profissional e relatórios analíticos de alta performance SQL.
+- 🔒 **Segurança & Padrão Twelve-Factor:** Externalização completa de credenciais e documentação interativa Swagger/OpenAPI.
 
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BioCamargo&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BioCamargo&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Langs" />
+  <sub>Fábio Prado de Camargo • Limeira, SP - Brasil • <a href="https://www.linkedin.com/in/fabio-prado-de-camargo">LinkedIn</a></sub>
 </div>
