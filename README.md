@@ -5,7 +5,7 @@
 
 📍 Limeira, SP - Brasil  
 ✉️ [bio.camargo@gmail.com](mailto:bio.camargo@gmail.com) • 📱 (11) 95430-1259  
-🔗 [LinkedIn](https://www.linkedin.com/in/fabio-prado-de-camargo) • 🐙 [GitHub](https://github.com/BioCamargo)
+🔗 [LinkedIn](https://www.linkedin.com/in/fabio-prado-de-camargo)
 
 ---
 
